@@ -1,0 +1,4 @@
+document.querySelectorAll
+javaScrip loop types and diffrents
+document.jcreateElement('p') //  // creaate and add element by using JS
+appendChild()

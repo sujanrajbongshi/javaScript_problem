@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="blogs">
+        <article>
+            <h3>blog-1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sapiente deserunt id amet? Nulla soluta rerum laboriosam vero placeat rem quos pariatur natus. Possimus quidem nam perferendis odit. Magni, itaque.</p>
+        </article>
+    </section>
+    <script>
+        /////////part1 
+         // creaate and add element by using JS
+        // create the element
+        const li = document.createElement('h3');
+        li.innerText = 'blogs-5';
+        //where to add
+        const ul = document.getElementById('blogs');
+        // apppend new element
+        ul.appendChild(li)
+///////////////////////////////////////////////////////////////////
+        //part2
+         // add article 
+         const article = document.createElement('article');
+        const h3 = document.createElement('h3');
+        h3.innerText= 'My Awesome Blog-5';
+        const p = document.cearteElement('p');
+        p.innerText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit.';
+        article.appendChild(h3);
+        article.appendChild(p);
+
+        // parent of article 
+        const blue = document.getElementById('blogs');
+        blue.appendChild(article);
+    </script>
+</body>
+</html>
